@@ -1,4 +1,4 @@
-sequence = range(4000000000)
+sequence = range(116226146)
 
 def binary_search(list, item):
     low = 0
@@ -20,4 +20,4 @@ def binary_search(list, item):
             low = mid + 1
     return None
 
-print(binary_search(sequence, 1728382782))
+print(binary_search(sequence, 123213))
